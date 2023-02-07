@@ -19,14 +19,9 @@ const formData = {
 export const LoginPage = () => {
 
 	const{status, errorMessage} = useSelector( state => state.auth);
-
-
 	const dispatch =  useDispatch()
-	//const {checkingCredential} = useSelector( state => state.)
-
 	const {email, password, onInputChange} = useForm(formData);
-
-	const isAutheticating = useMemo( () => status ==='checking', [status])
+	const isAuthenticating = useMemo( () => status ==='checking', [status])
 
 	const onSubmit = (e) => {
 
@@ -77,7 +72,7 @@ export const LoginPage = () => {
 								type="submit" 
 								variant='contained' 
 								fullWidth
-								disabled={isAutheticating}
+								disabled={isAuthenticating}
 								>
 								Login
 							</Button>
@@ -88,7 +83,7 @@ export const LoginPage = () => {
 								variant='contained' 
 								fullWidth
 								onClick={onGoogleSignIn}
-								disabled={isAutheticating}
+								disabled={isAuthenticating}
 								>
 								<Google/>
 									<Typography sx={{ml: 1}}></Typography> Google

@@ -1,60 +1,59 @@
-import { 
-	Box, 
-	Divider, 
+import {
+	Box,
+	Divider,
 	Toolbar,
-	Grid, 
-	List, 
-	ListItem, 
-	ListItemButton, 
-	ListItemIcon, 
-	ListItemText, 
-	Typography, 
-	Drawer 
+	List,
+	Typography,
+	Drawer
 } from '@mui/material'
-import {  TurnedInNot } from '@mui/icons-material'
+import { useAppSelector } from '../../hooks'
+import { SideBarItem } from './SideBarItem'
 
-type props={
-	drawerWidth:number
+type props = {
+	drawerWidth: number
 }
-export const Sidebar = ({ drawerWidth }:props) => {
+export const Sidebar = ({ drawerWidth }: props) => {
+
+	const { notes } = useAppSelector(state => state.journal)
+	const { displayName } = useAppSelector(state => state.auth)
+
+	const newArray = notes.some(note => {
+		if (typeof note.id === 'undefined') {
+			return true
+		}
+		return false
+	})
+
 	return (
-		<Box 
+		<Box
 			component="nav"
 			sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
 		>
 			<Drawer
-				variant="permanent"//temporarry
+				variant="permanent"
 				open
 				sx={{
-					display: { xs: 'block'},
-					'& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth}
+					display: { xs: 'block' },
+					'& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth }
 				}}
 			>
 
 				<Toolbar>
 					<Typography variant='h6' noWrap component="div" >
-							Diego Monsalve
+						{displayName}
 					</Typography>
 				</Toolbar>
-				<Divider/>
+				<Divider />
 
 				<List>
 					{
-						['January', 'February', 'March', 'April'].map( text => (
-							<ListItem
-								key={text} disablePadding
-							>
-								<ListItemButton>
-									<ListItemIcon>
-										<TurnedInNot/>
-									</ListItemIcon>										
-								</ListItemButton>
+						notes.map(note => (
 
-								<Grid container>
-									<ListItemText primary={text}/>
-									<ListItemText secondary={ 'Lorem ipsum dolor sit amet consectetur, adipisicing'}/>
-								</Grid>
-							</ListItem>
+							<SideBarItem
+								key={note.id}
+								{...note}
+							/>
+
 						))
 					}
 				</List>

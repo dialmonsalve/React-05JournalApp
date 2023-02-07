@@ -1,0 +1,412 @@
+{
+	"_docs": [
+			{
+					"_firestore": {
+							"app": {
+									"_isDeleted": false,
+									"_options": {
+											"apiKey": "AIzaSyDM8slBqsdNZVKVi7p2euUjoRp6DCfhcQI",
+											"authDomain": "react-journal-ts.firebaseapp.com",
+											"projectId": "react-journal-ts",
+											"storageBucket": "react-journal-ts.appspot.com",
+											"messagingSenderId": "1009775309447",
+											"appId": "1:1009775309447:web:ad114014a5365b06ed7e22"
+									},
+									"_config": {
+											"name": "[DEFAULT]",
+											"automaticDataCollectionEnabled": false
+									},
+									"_name": "[DEFAULT]",
+									"_automaticDataCollectionEnabled": false,
+									"_container": {
+											"name": "[DEFAULT]",
+											"providers": {}
+									}
+							},
+							"databaseId": {
+									"projectId": "react-journal-ts",
+									"database": "(default)"
+							},
+							"settings": {
+									"host": "firestore.googleapis.com",
+									"ssl": true,
+									"ignoreUndefinedProperties": false,
+									"cacheSizeBytes": 41943040,
+									"experimentalForceLongPolling": false,
+									"experimentalAutoDetectLongPolling": false,
+									"useFetchStreams": false
+							}
+					},
+					"_userDataWriter": {
+							"firestore": {
+									"app": {
+											"_isDeleted": false,
+											"_options": {
+													"apiKey": "AIzaSyDM8slBqsdNZVKVi7p2euUjoRp6DCfhcQI",
+													"authDomain": "react-journal-ts.firebaseapp.com",
+													"projectId": "react-journal-ts",
+													"storageBucket": "react-journal-ts.appspot.com",
+													"messagingSenderId": "1009775309447",
+													"appId": "1:1009775309447:web:ad114014a5365b06ed7e22"
+											},
+											"_config": {
+													"name": "[DEFAULT]",
+													"automaticDataCollectionEnabled": false
+											},
+											"_name": "[DEFAULT]",
+											"_automaticDataCollectionEnabled": false,
+											"_container": {
+													"name": "[DEFAULT]",
+													"providers": {}
+											}
+									},
+									"databaseId": {
+											"projectId": "react-journal-ts",
+											"database": "(default)"
+									},
+									"settings": {
+											"host": "firestore.googleapis.com",
+											"ssl": true,
+											"ignoreUndefinedProperties": false,
+											"cacheSizeBytes": 41943040,
+											"experimentalForceLongPolling": false,
+											"experimentalAutoDetectLongPolling": false,
+											"useFetchStreams": false
+									}
+							}
+					},
+					"_key": {
+							"path": {
+									"segments": [
+											"projects",
+											"react-journal-ts",
+											"databases",
+											"(default)",
+											"documents",
+											"PXkJXdbT32eK1C4mL4U4kag5STr1",
+											"journal",
+											"notes",
+											"0WqGYJyas9JgZK78VlSf"
+									],
+									"offset": 5,
+									"len": 4
+							}
+					},
+					"_document": {
+							"key": {
+									"path": {
+											"segments": [
+													"projects",
+													"react-journal-ts",
+													"databases",
+													"(default)",
+													"documents",
+													"PXkJXdbT32eK1C4mL4U4kag5STr1",
+													"journal",
+													"notes",
+													"0WqGYJyas9JgZK78VlSf"
+											],
+											"offset": 5,
+											"len": 4
+									}
+							},
+							"documentType": 1,
+							"version": {
+									"timestamp": {
+											"seconds": 1675730810,
+											"nanoseconds": 9950000
+									}
+							},
+							"readTime": {
+									"timestamp": {
+											"seconds": 0,
+											"nanoseconds": 0
+									}
+							},
+							"createTime": {
+									"timestamp": {
+											"seconds": 1675730810,
+											"nanoseconds": 9950000
+									}
+							},
+							"data": {
+									"value": {
+											"mapValue": {
+													"fields": {
+															"body": {
+																	"stringValue": ""
+															},
+															"title": {
+																	"stringValue": ""
+															},
+															"date": {
+																	"integerValue": "1675730810962"
+															}
+													}
+											}
+									}
+							},
+							"documentState": 0
+					},
+					"_converter": null
+			},
+			{
+					"_firestore": {
+							"app": {
+									"_isDeleted": false,
+									"_options": {
+											"apiKey": "AIzaSyDM8slBqsdNZVKVi7p2euUjoRp6DCfhcQI",
+											"authDomain": "react-journal-ts.firebaseapp.com",
+											"projectId": "react-journal-ts",
+											"storageBucket": "react-journal-ts.appspot.com",
+											"messagingSenderId": "1009775309447",
+											"appId": "1:1009775309447:web:ad114014a5365b06ed7e22"
+									},
+									"_config": {
+											"name": "[DEFAULT]",
+											"automaticDataCollectionEnabled": false
+									},
+									"_name": "[DEFAULT]",
+									"_automaticDataCollectionEnabled": false,
+									"_container": {
+											"name": "[DEFAULT]",
+											"providers": {}
+									}
+							},
+							"databaseId": {
+									"projectId": "react-journal-ts",
+									"database": "(default)"
+							},
+							"settings": {
+									"host": "firestore.googleapis.com",
+									"ssl": true,
+									"ignoreUndefinedProperties": false,
+									"cacheSizeBytes": 41943040,
+									"experimentalForceLongPolling": false,
+									"experimentalAutoDetectLongPolling": false,
+									"useFetchStreams": false
+							}
+					},
+					"_userDataWriter": {
+							"firestore": {
+									"app": {
+											"_isDeleted": false,
+											"_options": {
+													"apiKey": "AIzaSyDM8slBqsdNZVKVi7p2euUjoRp6DCfhcQI",
+													"authDomain": "react-journal-ts.firebaseapp.com",
+													"projectId": "react-journal-ts",
+													"storageBucket": "react-journal-ts.appspot.com",
+													"messagingSenderId": "1009775309447",
+													"appId": "1:1009775309447:web:ad114014a5365b06ed7e22"
+											},
+											"_config": {
+													"name": "[DEFAULT]",
+													"automaticDataCollectionEnabled": false
+											},
+											"_name": "[DEFAULT]",
+											"_automaticDataCollectionEnabled": false,
+											"_container": {
+													"name": "[DEFAULT]",
+													"providers": {}
+											}
+									},
+									"databaseId": {
+											"projectId": "react-journal-ts",
+											"database": "(default)"
+									},
+									"settings": {
+											"host": "firestore.googleapis.com",
+											"ssl": true,
+											"ignoreUndefinedProperties": false,
+											"cacheSizeBytes": 41943040,
+											"experimentalForceLongPolling": false,
+											"experimentalAutoDetectLongPolling": false,
+											"useFetchStreams": false
+									}
+							}
+					},
+					"_key": {
+							"path": {
+									"segments": [
+											"projects",
+											"react-journal-ts",
+											"databases",
+											"(default)",
+											"documents",
+											"PXkJXdbT32eK1C4mL4U4kag5STr1",
+											"journal",
+											"notes",
+											"aL2VzJnRv9YVu9TKkj5m"
+									],
+									"offset": 5,
+									"len": 4
+							}
+					},
+					"_document": {
+							"key": {
+									"path": {
+											"segments": [
+													"projects",
+													"react-journal-ts",
+													"databases",
+													"(default)",
+													"documents",
+													"PXkJXdbT32eK1C4mL4U4kag5STr1",
+													"journal",
+													"notes",
+													"aL2VzJnRv9YVu9TKkj5m"
+											],
+											"offset": 5,
+											"len": 4
+									}
+							},
+							"documentType": 1,
+							"version": {
+									"timestamp": {
+											"seconds": 1675730649,
+											"nanoseconds": 495876000
+									}
+							},
+							"readTime": {
+									"timestamp": {
+											"seconds": 0,
+											"nanoseconds": 0
+									}
+							},
+							"createTime": {
+									"timestamp": {
+											"seconds": 1675730649,
+											"nanoseconds": 495876000
+									}
+							},
+							"data": {
+									"value": {
+											"mapValue": {
+													"fields": {
+															"body": {
+																	"stringValue": ""
+															},
+															"date": {
+																	"integerValue": "1675730650440"
+															},
+															"title": {
+																	"stringValue": ""
+															}
+													}
+											}
+									}
+							},
+							"documentState": 0
+					},
+					"_converter": null
+			}
+	],
+	"query": {
+			"converter": null,
+			"_query": {
+					"path": {
+							"segments": [
+									"PXkJXdbT32eK1C4mL4U4kag5STr1",
+									"journal",
+									"notes"
+							],
+							"offset": 0,
+							"len": 3
+					},
+					"collectionGroup": null,
+					"explicitOrderBy": [],
+					"filters": [],
+					"limit": null,
+					"limitType": "F",
+					"startAt": null,
+					"endAt": null,
+					"q": [
+							{
+									"field": {
+											"segments": [
+													"__name__"
+											],
+											"offset": 0,
+											"len": 1
+									},
+									"dir": "asc"
+							}
+					],
+					"O": {
+							"path": {
+									"segments": [
+											"PXkJXdbT32eK1C4mL4U4kag5STr1",
+											"journal",
+											"notes"
+									],
+									"offset": 0,
+									"len": 3
+							},
+							"collectionGroup": null,
+							"orderBy": [
+									{
+											"field": {
+													"segments": [
+															"__name__"
+													],
+													"offset": 0,
+													"len": 1
+											},
+											"dir": "asc"
+									}
+							],
+							"filters": [],
+							"limit": null,
+							"startAt": null,
+							"endAt": null,
+							"S": null
+					}
+			},
+			"type": "collection",
+			"firestore": {
+					"app": {
+							"_isDeleted": false,
+							"_options": {
+									"apiKey": "AIzaSyDM8slBqsdNZVKVi7p2euUjoRp6DCfhcQI",
+									"authDomain": "react-journal-ts.firebaseapp.com",
+									"projectId": "react-journal-ts",
+									"storageBucket": "react-journal-ts.appspot.com",
+									"messagingSenderId": "1009775309447",
+									"appId": "1:1009775309447:web:ad114014a5365b06ed7e22"
+							},
+							"_config": {
+									"name": "[DEFAULT]",
+									"automaticDataCollectionEnabled": false
+							},
+							"_name": "[DEFAULT]",
+							"_automaticDataCollectionEnabled": false,
+							"_container": {
+									"name": "[DEFAULT]",
+									"providers": {}
+							}
+					},
+					"databaseId": {
+							"projectId": "react-journal-ts",
+							"database": "(default)"
+					},
+					"settings": {
+							"host": "firestore.googleapis.com",
+							"ssl": true,
+							"ignoreUndefinedProperties": false,
+							"cacheSizeBytes": 41943040,
+							"experimentalForceLongPolling": false,
+							"experimentalAutoDetectLongPolling": false,
+							"useFetchStreams": false
+					}
+			},
+			"_path": {
+					"segments": [
+							"PXkJXdbT32eK1C4mL4U4kag5STr1",
+							"journal",
+							"notes"
+					],
+					"offset": 0,
+					"len": 3
+			}
+	}
+}
